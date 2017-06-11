@@ -136,7 +136,11 @@ main {
     text-align: center;
 }
 main #prostokaty {
+    margin: auto;
+    position: relative;
+    width: 1200px;
     text-align: center;
+    justify-content: center;
 }
 main .prostokat {
     background: url("../images/square.jpg");
