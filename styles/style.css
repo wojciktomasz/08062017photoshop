@@ -139,8 +139,7 @@ main #prostokaty {
     margin: auto;
     position: relative;
     width: 1200px;
-    text-align: center;
-    justify-content: center;
+    padding-left: 38%;
 }
 main .prostokat {
     background: url("../images/square.jpg");
@@ -148,7 +147,7 @@ main .prostokat {
     height: 280px;
     text-align: center;
     float: left;
-    margin-right: 20px;
+    margin-right: 15px;
     margin-top: -140px;
 }
 main .prostokat p {
