@@ -150,6 +150,9 @@ main .prostokat {
     margin-right: 15px;
     margin-top: -140px;
 }
+main .prostokat:hover {
+    background: url("../images/square2.jpg");
+}
 main .prostokat p {
     color: #ffffff;
     padding-top: 220px;
