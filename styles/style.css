@@ -157,3 +157,93 @@ main .prostokat p {
     padding-top: 220px;
     text-transform: uppercase;
 }
+h1 {
+    text-transform: uppercase;
+    color: #f99d1c;
+    font-size: 36px;
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main #ofirmie-znaczek {
+    background: url("../images/ofirmie.png");
+    width: 394px;
+    height: 32px;
+    margin: auto;
+    position: relative;
+}
+main #sentencja {
+    font-size: 18px;
+    font-style: italic;
+    color: #444444;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+main #tresc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #lewo {
+    width: 880px;
+}
+main #prawo {
+    background: url("../images/rocket.png") no-repeat;
+    height: 279px;
+    width: 300px;
+    background-position: 30px;
+}
+main #lewo p {
+    color: #555555;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+main #zespol {
+    display: flex;
+    justify-content: center;
+}
+main h2 {
+    margin-top: 10px;
+    width: 480px;
+    height: 25px;
+    color: #f99d1c;
+    background: url("../images/line.png") no-repeat;
+    background-position: 0 12.5px;
+    font-size: 24px;
+    text-align: center;
+}
+main #zespol-czlonkowie {
+    display: flex;
+    justify-content: center;
+}
+main #pierwszy {
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+main #drugi {
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+main h3 {
+    color: #f99d1c;
+    font-size: 18px;
+    margin-top: 25px;
+}
+main h4 {
+    font-size: 16px;
+    color: #a7a7a7;
+    margin-top: 5px;
+}
+#kontakt-formularz {
+    height: 545px;
+    background: url("../images/contact-bg.jpg") no-repeat center;
+
+}
+footer {
+    background-color: #f99d1c;
+    height: 65px;
+}
