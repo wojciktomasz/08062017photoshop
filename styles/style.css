@@ -296,6 +296,9 @@ input[type=submit] {
     font-weight: bold;
     margin-top: 7px;
 }
+input[type=submit]:hover {
+    background-color: #fd0f0f;
+}
 textarea {
     width: 580px;
     height: 137px;
@@ -311,26 +314,41 @@ textarea {
 #kontakt-dane h3, .dane {
     font-size: 18px;
     color: #ffffff;
-    padding-left: 25px;
 }
 .dane {
-    padding-left: 50px;
+    padding-left: 25px;
 }
 #kontakt-dane h4 {
     font-size: 14px;
     color: #ffffff;
-    padding-left: 45px;
-    margin-top: -15px;
+    padding-left: 20px;
+    margin-top: 15px;
 }
 #ikona {
-    display: inline;
     height: 20px;
     width: 20px;
+    padding-top: 45px;
 }
-#ikona img {
-    padding-top: 10px;
+#ikona2 {
+    height: 20px;
+    width: 26px;
+    padding-top: 35px;
+}
+#ikony {
+    margin-right: -10px;
 }
 footer {
     background-color: #f99d1c;
     height: 65px;
+}
+#footercontainer {
+    display: flex;
+    justify-content: space-around;
+}
+#footercontainer img {
+    padding-top: 22.5px;
+}
+#footercontainer p {
+    color: #ffffff;
+    padding-top: 22.5px;
 }
