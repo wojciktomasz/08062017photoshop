@@ -55,8 +55,8 @@ header #orange {
 
 header #menu {
     display: flex;
-    width: 1180px;
-    height: 100px;
+    max-width: 1180px;
+    min-height: 100px;
     background-color: #ffffff;
     text-align: center;
     margin-top: 12px;
@@ -130,7 +130,7 @@ a:hover {
     color: #f99d1c;
 }
 main {
-    height: 1380px;
+    min-height: 1380px;
     background-color: #ffffff;
     text-align: center;
     width: auto;
@@ -187,7 +187,7 @@ main #tresc {
     align-items: center;
 }
 main #lewo {
-    width: 880px;
+    max-width: 880px;
 }
 main #prawo {
     background: url("../images/rocket.png") no-repeat;
@@ -257,7 +257,7 @@ main h4 {
     position: relative;
 }
 #kontakt-text {
-    width: 1150px;
+    max-width: 1150px;
     margin: auto;
 }
 #kontakt-formularz p {
@@ -351,4 +351,61 @@ footer {
 #footercontainer p {
     color: #ffffff;
     padding-top: 22.5px;
+}
+@media screen and (max-width: 800px) {
+    header #pozycjemenu {
+        padding-left: 0;
+    }
+    header ul {
+        margin-top: 15%;
+        margin-left: -10%;
+    }
+    header li {
+        width: 100%;
+        padding-bottom: 2%;
+        float: right;
+        font-size: 18px;
+    }
+    header #kontakt {
+        padding-top: 1%;
+        min-width: 200px;
+        margin-left: -150px;
+    }
+    main #prostokaty {
+        display: flex;
+        align-content: space-around;
+        margin-left: 1%;
+    }
+    main .prostokat {
+        background: url("../images/square.jpg") -50px -50px;
+        margin-top: 2%;
+    }
+    main .prostokat:last-child {
+        margin-right: 1%;
+    }
+    main .prostokat p {
+        margin-top: -20px;
+    }
+    main #tresc {
+        flex-direction: column;
+    }
+    main #lewo p {
+        padding: 2%;
+    }
+    #formularz-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    #kontakt-dane {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #kontakt-formularz {
+        background-color: #f99d1c!important;
+        height: auto;
+    }
+    #kontakt-dane h3 {
+        min-width: 200px;
+    }
 }
